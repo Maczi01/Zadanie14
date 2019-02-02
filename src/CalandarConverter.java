@@ -1,20 +1,29 @@
 public class CalandarConverter {
 
+    static final int MONDAY = 1;
+    static final int TUESDAY = 2;
+    static final int WEDNESDAY= 3;
+    static final int THURSDAY = 4;
+    static final int FRIDAY = 5;
+    static final int SATURDAY = 6;
+    static final int SUNDAY = 7;
+
+
     static String calandarConverter(int numberOfDay) {
         switch (numberOfDay) {
-            case 1:
+            case MONDAY:
                 return "Monday";
-            case 2:
+            case TUESDAY:
                 return "Tuesday";
-            case 3:
+            case WEDNESDAY:
                 return "Wednesday";
-            case 4:
+            case THURSDAY:
                 return "Thurdsay";
-            case 5:
+            case FRIDAY:
                 return "Friday";
-            case 6:
+            case SATURDAY:
                 return "Saturday";
-            case 7:
+            case SUNDAY:
                 return "Sunday";
             default:
                 return "Wrong number";
